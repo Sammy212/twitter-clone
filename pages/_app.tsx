@@ -6,7 +6,6 @@ import Modal from '@/components/Modal'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Modal isOpen title='Test Modal'/>
       <Layout>
         <Component {...pageProps} />
       </Layout>
